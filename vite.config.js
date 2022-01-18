@@ -1,9 +1,9 @@
 import { defineConfig } from "vite";
-import { renderIndexHtmlPlugin } from "./lib/vite-plugin-render-index-html";
+import { dlhSsgPlugin } from "./lib/vite-plugin-dlh-ssg";
 
 
 export default defineConfig({
     plugins: [
-        renderIndexHtmlPlugin()
+        dlhSsgPlugin()
     ]
 });
