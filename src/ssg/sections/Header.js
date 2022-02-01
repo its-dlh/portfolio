@@ -5,12 +5,16 @@ import dlhLogo from '../../assets/images/dlh.svg';
 export const Header = (_props, _children) => html`
     <header>
         <h1>Hello DLH!!</h1>
-        <img src="${dlhLogo}">
+        <img class="logo" src="${dlhLogo}" alt="dlh">
     </header>
 `;
 
 export const style = css`
     h1 {
-        color: green;
+        font-weight: 900;
+    }
+    
+    .logo {
+        margin: 4rem;
     }
 `;
