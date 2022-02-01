@@ -8,6 +8,6 @@ export const Body = () => html`
 
 export const style = css`
     body {
-        font-family: sans-serif;
+        font-family: "Raleway", sans-serif;
     }
 `;
