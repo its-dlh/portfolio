@@ -1,0 +1,21 @@
+<!-- I had a version of my logo that I've cobbled together for social media, but
+     I figured this would look better if I just typed up an SVG. -->
+<svg width="150" height="100" viewBox="0 0 150 100" xmlns="http://www.w3.org/2000/svg">
+    <!-- d -->
+    <polygon
+        points="60,0 60,100 0,100 0,50 40,50 40,70 20,70 20,80 40,80 40,0"
+        fill="#000000"
+    />
+    
+    <!-- L -->
+    <polygon
+        points="90,0 90,80 120,80 120,100 70,100 70,0"
+        fill="#000000"
+    />
+    
+    <!-- h -->
+    <polygon
+        points="120,0 120,50 150,50 150,100 130,100 130,70 100,70 100,0"
+        fill="#000000"
+    />
+</svg>
