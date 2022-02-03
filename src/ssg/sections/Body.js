@@ -3,7 +3,6 @@ import { Header } from "./Header";
 
 export const Body = () => html`
     ${Header}
-    <p>More to come...</p>
 `;
 
 export const style = css`

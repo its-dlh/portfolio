@@ -63,3 +63,15 @@ textarea,
 select {
   font: inherit;
 }
+
+@media print {
+    .hide-for-print {
+        display: none !important;
+    }
+}
+
+@media screen {
+    .hide-for-screen {
+        display: none !important;
+    }
+}
