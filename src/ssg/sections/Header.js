@@ -15,19 +15,22 @@ export const style = css`
         padding: 1rem;
         text-align: center;
         
-        & h1 {
+        h1 {
             font-size: 2rem;
             font-weight: 800;
             text-transform: uppercase;
             text-align: center;
         }
         
-        & .logo {
-            display: block;
+        .logo {
+            display: inline-block;
             height: 2rem;
-            position: absolute;
-            left: 1rem;
-            top: 1rem;
+            
+            @media (--sm) {
+                position: absolute;
+                left: 1rem;
+                top: 1rem;
+            }
         }
     }
 `;

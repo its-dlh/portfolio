@@ -1,2 +1,5 @@
 plugins:
-  postcss-nesting: {}
+  postcss-nested: {}
+  postcss-custom-media:
+    importFrom:
+      - 'src/assets/styles/breakpoints.css'
