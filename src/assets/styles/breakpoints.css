@@ -1,2 +1,11 @@
-
+/**
+* BREAKPOINTS
+* Prior art: Tailwind (https://tailwindcss.com/docs/responsive-design)
+* (Not quite sticking to mobile-first with the --sm-down breakpoint, but it could be useful)
+*/
+@custom-media --sm-down (max-width: 639px);
 @custom-media --sm (min-width: 640px);
+@custom-media --md (min-width: 768px);
+@custom-media --lg (min-width: 1024px);
+@custom-media --xl (min-width: 1280px);
+@custom-media --xxl (min-width: 1536px);
