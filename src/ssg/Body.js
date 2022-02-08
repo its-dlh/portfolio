@@ -1,13 +1,12 @@
 import { css, html } from "../html-template-tag";
 import { Header } from "./Header";
-import { Main } from "./Main";
 import { SummarySection } from "./summary-section/SummarySection";
 
 export const Body = () => html`
     ${Header}
-    ${Main(
-        SummarySection
-    )}
+    <main>
+        ${SummarySection}
+    </main>
 `;
 
 export const style = css`
@@ -21,6 +20,11 @@ export const style = css`
             flex-direction: column;
             height: 100vh;
             padding: 0.25in 0.5in 0.5in;
+        }
+        
+        main {
+            display: flex;
+            flex: 1 1 auto;
         }
     }
     
