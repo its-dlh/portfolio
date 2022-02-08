@@ -1,8 +1,8 @@
-import { html, css } from '../../../lib/html-template-tag.js';
+import { html, css } from '../html-template-tag.js';
 
-import dlhLogo from '../../assets/images/dlh.svg';
+import dlhLogo from '../assets/images/dlh.svg';
 
-export const Header = (_props, _children) => html`
+export const Header = () => html`
     <header id="mainHeader">
         <img class="logo" src="${dlhLogo}" alt="dlh">
         <h1>David L. Herring</h1>

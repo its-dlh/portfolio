@@ -1,4 +1,4 @@
-import { css, html } from "../../../lib/html-template-tag";
+import { css, html } from "../html-template-tag";
 import { Header } from "./Header";
 
 export const Body = () => html`

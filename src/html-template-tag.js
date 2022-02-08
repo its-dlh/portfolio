@@ -48,8 +48,6 @@ function renderPart(part) {
 export function css([...strings], ...parts) {
     let output = strings.shift();
     
-    console.log(this);
-    
     for (const part of parts) {
         output += part + strings.shift();
     }

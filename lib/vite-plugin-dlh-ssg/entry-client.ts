@@ -1,1 +1,1 @@
-import '../../src/ssg/sections/Body.js';
+import '../../src/ssg/Body.js';
