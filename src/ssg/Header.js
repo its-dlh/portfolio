@@ -3,14 +3,14 @@ import { html, css } from '../html-template-tag.js';
 import dlhLogo from '../assets/images/dlh.svg';
 
 export const Header = () => html`
-    <header id="mainHeader">
+    <header id="main-header">
         <img class="logo" src="${dlhLogo}" alt="dlh">
         <h1>David L. Herring</h1>
     </header>
 `;
 
 export const style = css`
-    #mainHeader {
+    #main-header {
         position: relative;
         padding: 1rem;
         text-align: center;

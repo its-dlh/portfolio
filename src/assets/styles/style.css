@@ -2,6 +2,10 @@ html {
     font-size: 16px;
 }
 
+:root {
+    --color-light-grey: #d9dadf;
+}
+
 /*
 Prior art for resets:
 https://github.com/jgthms/minireset.css/blob/749bdd8e794ae2bf79e86d096fc66079ea8670e6/minireset.css

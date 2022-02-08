@@ -28,8 +28,8 @@ function renderPart(part) {
     }
     
     if (Array.isArray(part)) {
-        return Promise.all(part).then(
-            subparts => subparts.map(renderPart).join('\n')
+        return Promise.all(part.map(renderPart)).then(
+            subparts => subparts.join('\n')
         );
     }
     
