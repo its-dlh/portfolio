@@ -31,6 +31,12 @@ export const style = css`
                 left: 1rem;
                 top: 1rem;
             }
+            
+            @media print {
+                position: absolute;
+                left: 1rem;
+                top: 1rem;
+            }
         }
     }
 `;

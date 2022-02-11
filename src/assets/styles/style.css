@@ -3,7 +3,10 @@ html {
 }
 
 :root {
-    --color-light-grey: #d9dadf;
+    --color-primary: #097186;
+    --color-secondary: #824C71;
+    --color-light: #d9dadf;
+    --color-dark-print: #333333;
 }
 
 /*
@@ -22,8 +25,6 @@ html,
 body,
 p,
 ol,
-ul,
-li,
 dl,
 dt,
 dd,
@@ -45,8 +46,15 @@ h6 {
     padding: 0;
 }
 
-ul {
+ul:not(.list) {
     list-style: none;
+    margin: 0;
+    padding: 0;
+    
+    li {
+        margin: 0;
+        padding: 0;
+    }
 }
 
 button,
@@ -69,6 +77,10 @@ select {
 }
 
 @media print {
+    html {
+        font-size: 11pt;
+    }
+    
     .hide-for-print {
         display: none !important;
     }

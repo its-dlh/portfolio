@@ -9,12 +9,14 @@ export const SummarySection = (...children) => html`
 export const style = css`
     @media print {
         #summary-section {
-            background-color: var(--color-light-grey);
+            background-color: var(--color-dark-print);
+            --color: #fff;
+            color: var(--color);
             padding: 1rem;
             flex: 0 0 auto;
-            width: 3in;
+            width: 2.5in;
             -webkit-print-color-adjust: exact;
             color-adjust: exact;
         }
     }
-`
+`;
