@@ -6,7 +6,7 @@ export const FergusonEntry = () => html`
     ${TimelineEntry({
         title: 'Ferguson Advertising',
         subtitle: 'Technical Development Manager',
-        start: '2021'
+        start: 2021
     })(html`
         <p>
             Being promoted to the position of Technical Development Manager served to formalize
@@ -32,8 +32,8 @@ export const FergusonEntry = () => html`
     
     ${TimelineEntry({
         subtitle: 'Lead Developer (of "Special Projects")',
-        start: '2019',
-        end: '2021'
+        start: 2019,
+        end: 2021
     })(html`
         <p>
             Even before having a formalized senior or management role, I had made a name for myself as
@@ -47,9 +47,10 @@ export const FergusonEntry = () => html`
             Some specific highlights of these years include...
         </p>
         ${TimelineEntryList(
-            "Creating kiosk software with Angular and Electron for a trade show vendor as a sales tool",
-            "Taking ownership of a variety of projects left by a former senior dev and seeing them through to completion",
-            "Building up a suite of web apps for a large client by unifying development in a monorepo and continually improving a shared backend"
+            "Creating Electron-based kiosk software to enhance a client's sales presence at trade shows",
+            "Taking ownership of a variety of poorly-architected projects left by a former senior dev and seeing them through to completion",
+            "Building up a suite of web apps for a large client by unifying development in a monorepo and continually improving a shared backend",
+            "Pushing for more widespread git usage internally"
         )}
     `)}
 `;
