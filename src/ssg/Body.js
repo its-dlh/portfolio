@@ -2,6 +2,8 @@ import { css, html } from "../html-template-tag";
 import { Header } from "./Header";
 import { SummaryList } from "./summary/SummaryList";
 import { SummarySection } from "./summary/SummarySection";
+import { FergusonEntry } from "./timeline/FergusonEntry";
+import { TimelineSection } from "./timeline/TimelineSection";
 
 export const Body = () => html`
     ${Header}
@@ -44,6 +46,12 @@ export const Body = () => html`
                 'Python, Perl, Java, C, C++, C#, Objective C, Lua, GLSL',
             )
         )}
+        
+        ${TimelineSection(html`
+            <h2>Timeline</h2>
+            
+            ${FergusonEntry}
+        `)}
     </main>
 `;
 
