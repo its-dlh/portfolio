@@ -21,7 +21,7 @@ export const style = css`
             --color: #000;
             color: var(--color);
             padding: 1rem;
-            flex: 1 0 auto;
+            flex: 1 0 0;
         }
     }
 `;
