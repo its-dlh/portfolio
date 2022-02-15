@@ -3,6 +3,7 @@ import { Header } from "./Header";
 import { SummaryList } from "./summary/SummaryList";
 import { SummarySection } from "./summary/SummarySection";
 import { FergusonEntry } from "./timeline/FergusonEntry";
+import { ProPrintsEntry } from "./timeline/ProPrintsEntry";
 import { TimelineSection } from "./timeline/TimelineSection";
 
 export const Body = () => html`
@@ -51,6 +52,7 @@ export const Body = () => html`
             <h2>Timeline</h2>
             
             ${FergusonEntry}
+            ${ProPrintsEntry}
         `)}
     </main>
 `;
