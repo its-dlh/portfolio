@@ -20,7 +20,7 @@ export const style = css`
         #timeline-section {
             --color: #000;
             color: var(--color);
-            padding: 1rem;
+            padding-left: 1.5rem;
             flex: 1 0 0;
         }
     }

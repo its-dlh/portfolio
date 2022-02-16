@@ -20,6 +20,18 @@ export const TimelineEntry = props => (...children) => html`
 `;
 
 export const style = css`
+    .timeline-entry {
+        p {
+            margin: 0.75em 0;
+        }
+        
+        h5 {
+            font-size: 1em;
+            font-weight: 400;
+            text-decoration: underline;
+        }
+    }
+    
     @media print {
         .timeline-entry {
         }

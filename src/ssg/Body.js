@@ -13,38 +13,29 @@ export const Body = () => html`
             SummaryList({ title: 'Strengths' })(
                 'Versatile full-stack developer whose eagerness to learn is balanced by experience and maturity',
                 'Skilled architect with an aptitude for building complex interactions and data flows',
-                'Loves bringing UX to life with interactivity, reactivity, and airtight state management',
+                'Loves bringing UX to life with interactivity, reactivity, and state management',
                 'Natural mentor with a desire to foster the growth and knowledge of those around him'
             ),
             
-            SummaryList({ title: 'Best Friends' })(
-                'ES2021, TypeScript',
-                'Vue, Svelte',
-                'Vite',
-                'Sass, PostCSS',
-                'Electron, Capacitor',
-                'Google Firebase, Firestore',
-                'Regular expressions',
-                'GNU/Linux'
-            ),
-            
-            SummaryList({ title: 'Friends' })(
-                'Vanilla HTML/CSS/JS',
-                'Nuxt, Angular, jQuery',
-                'Webpack, Babel',
-                'Ionic, Cordova',
-                'REST, GraphQL, Apollo',
+            SummaryList({ title: 'Experienced With...' })(
+                'HTML/CSS/JS, TypeScript',
+                'Vue, Nuxt, Angular, Ionic, jQuery',
+                'Webpack, Babel, Sass, PostCSS',
+                'Electron, Capacitor, Cordova',
                 'Node.js, Express, PHP, WordPress',
+                'REST, GraphQL, Apollo',
                 'MySQL/MariaDB, mongoDB',
-                'Apache, nginx'
+                'Google Firebase, Firestore'
             ),
             
-            SummaryList({ title: 'Aquaintances' })(
-                'React, React Native, Expo',
+            SummaryList({ title: 'Also Familiar With...' })(
+                'Python, Perl, Java, C Family, Go',
+                'React, Svelte',
+                'Vite, Rollup',
+                'React Native, Expo',
                 'Fastify, Deno',
                 'PostgreSQL, SQL Server',
-                'Google Web Toolkit, Apache Tomcat',
-                'Python, Perl, Java, C, C++, C#, Objective C, Lua, GLSL',
+                'Cloudflare, Netlify, Auth0',
             )
         )}
         

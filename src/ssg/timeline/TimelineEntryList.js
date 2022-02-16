@@ -12,18 +12,13 @@ export const TimelineEntryList = /* props => */ (...children) => html`
 
 export const style = css`
     .timeline-entry-list {
-        h5 {
-            font-size: 1.25em;
-            font-weight: 700;
-        }
-        
         ul {
             margin: 0.25em 0 1em;
             padding: 0 0 0 1.25em;
         }
         
         li {
-            margin: 0.5em 0;
+            margin: 0.25em 0;
         }
     }
     

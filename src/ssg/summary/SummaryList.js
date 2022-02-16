@@ -32,7 +32,7 @@ export const style = css`
     
     @media print {
         .summary-list {
-            font-size: 0.9rem;
+            /* font-size: 0.9rem; */
             font-weight: 500;
         }
     }
