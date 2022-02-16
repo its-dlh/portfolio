@@ -13,6 +13,7 @@ export const style = css`
             font-weight: 800;
             border-bottom: 0.125em solid var(--color);
             text-transform: uppercase;
+            margin-bottom: 0.5em;
         }
     }
     
