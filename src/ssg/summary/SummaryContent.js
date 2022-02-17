@@ -16,6 +16,7 @@ export const style = css`
             font-size: 1.25em;
             font-weight: 800;
             border-bottom: 0.125em solid var(--color);
+            text-transform: uppercase;
         }
         
         p {

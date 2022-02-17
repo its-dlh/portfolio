@@ -38,6 +38,7 @@ export const Body = () => html`
             SummaryList({ title: 'Experienced In...' })(
                 'Vite, Webpack, Babel, PostCSS',
                 'Electron, Ionic, Capacitor, Cordova',
+                'React, RxJS',
                 'GraphQL, Apollo',
                 'PostgreSQL, mongoDB',
                 'Google Firebase, Firestore'
@@ -45,7 +46,7 @@ export const Body = () => html`
             
             SummaryList({ title: 'Dangerous In...' })(
                 'Python, Perl, Java, C Family, Go, Rust, Lua, GLSL',
-                'Svelte, React, React Native',
+                'Svelte, React Native',
                 'Tailwind',
                 'Fastify, Deno, Strapi'
             ),
