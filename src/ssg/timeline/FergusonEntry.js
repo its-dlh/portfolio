@@ -35,7 +35,8 @@ export const FergusonEntry = () => html`
             'Occupied my own slice of the org chart titled "Special Projects"',
             "Created Electron and Angular-based kiosk software to enhance a client's sales presence at trade shows",
             "Took ownership of a variety of dubiously-architected projects left by a former senior dev and saw them through to completion",
-            "Built up a suite of web apps for a large client by unifying development in a monorepo and maintaining a shared backend"
+            "Built up a suite of web apps for a large client by unifying development in a monorepo and maintaining a shared backend",
+            "Used graph theory to model branching task dependencies in a custom business case tool"
         )}
     `)}
     
