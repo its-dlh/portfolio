@@ -1,23 +1,25 @@
 import { css, html } from "../html-template-tag";
 import { Header } from "./Header";
+import { SummaryContent } from "./summary/SummaryContent";
 import { SummaryList } from "./summary/SummaryList";
 import { SummarySection } from "./summary/SummarySection";
 import { FergusonEntry } from "./timeline/FergusonEntry";
 import { ProPrintsEntry } from "./timeline/ProPrintsEntry";
+import { TimelineEntry } from "./timeline/TimelineEntry";
 import { TimelineSection } from "./timeline/TimelineSection";
 
 export const Body = () => html`
     ${Header}
     <main>
         ${SummarySection(
-            html`
-                <p>
-                    Versatile full-stack developer with insatiable curiosity, looking
-                    to stretch my engineering skills to their limits and beyond. Comfortable on both
-                    front-end and back-end, with a particular penchant for bringing UX to life with
-                    interactivity, reactivity, and well-structured state management.
+            SummaryContent({ title: 'Summary' })(html`
+                <p class="summary-text">
+                    Versatile full-stack developer with insatiable curiosity looking
+                    to stretch engineering skills to the limit and beyond. Passionate
+                    about front-end reactivity, data flow, and state management, while completely
+                    comfortable diving deep into a backend, even those authored in unfamiliar languages.
                 </p>
-            `,
+            `),
             // SummaryList({ title: 'Strengths' })(
             //     'Versatile full-stack developer whose eagerness to learn is balanced by experience and maturity',
             //     'Skilled architect with an aptitude for building complex interactions and data flows',
@@ -46,7 +48,17 @@ export const Body = () => html`
                 'Svelte, React, React Native',
                 'Tailwind',
                 'Fastify, Deno, Strapi'
-            )
+            ),
+            
+            SummaryContent({ title: 'Education' })(
+                TimelineEntry({
+                    title: "Indiana Wesleyan University",
+                    subtitle: "B.S. Computer Information Systems",
+                    class: 'education-entry'
+                })(html`
+                    <p>Marion, IN | 2007-2012</p>
+                `)
+            ),
         )}
         
         ${TimelineSection(html`
@@ -61,6 +73,10 @@ export const Body = () => html`
 export const style = css`
     body {
         font-family: "Raleway", sans-serif;
+    }
+    
+    .education-entry p {
+        margin: 0.25em 0;
     }
     
     @media print {
