@@ -1,10 +1,12 @@
 import { html, css } from '../html-template-tag.js';
 
 import dlhLogo from '../assets/images/dlh.svg';
+import { Logo } from './Logo.js';
 
 export const Header = () => html`
     <header id="main-header">
-        <img class="logo" src="${dlhLogo}" alt="dlh">
+        <!-- <img class="logo" src="${dlhLogo}" alt="dlh"> -->
+        ${Logo}
         <h1>David L. Herring</h1>
     </header>
 `;
@@ -22,7 +24,7 @@ export const style = css`
             text-align: center;
         }
         
-        .logo {
+        .dlh-logo {
             display: inline-block;
             height: 2rem;
             
