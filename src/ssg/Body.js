@@ -19,9 +19,9 @@ export const Body = () => html`
             
             SummaryList({ title: 'Experienced With...' })(
                 'HTML/CSS/JS, TypeScript',
-                'Vue, Nuxt, Angular, Ionic, jQuery',
+                'Vue, Nuxt, React, Angular, jQuery',
                 'Webpack, Babel, Sass, PostCSS',
-                'Electron, Capacitor, Cordova',
+                'Electron, Capacitor, Cordova, Ionic',
                 'Node.js, Express, PHP, WordPress',
                 'REST, GraphQL, Apollo',
                 'MySQL/MariaDB, mongoDB',
@@ -30,9 +30,8 @@ export const Body = () => html`
             
             SummaryList({ title: 'Also Familiar With...' })(
                 'Python, Perl, Java, C Family, Go',
-                'React, Svelte',
+                'Svelte, React Native',
                 'Vite, Rollup',
-                'React Native, Expo',
                 'Fastify, Deno',
                 'PostgreSQL, SQL Server',
                 'Cloudflare, Netlify, Auth0',
