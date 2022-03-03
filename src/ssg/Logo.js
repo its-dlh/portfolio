@@ -59,8 +59,8 @@ export const Logo = () => html`
                 points="50,80 50,50 0,50 0,100 50,100 50,85 15,85 15,65 35,65 35,80"
             /> -->
             <g class="letter letter-e">
-                <rect x="0" y="50" width="50" height="20"/>
-                <rect x="0" y="80" width="50" height="20"/>
+                <rect x="0" y="50" width="40" height="20"/>
+                <rect x="0" y="80" width="40" height="20"/>
             </g>
             
             <!-- r -->
@@ -132,23 +132,23 @@ export const style = css`
             }
             
             .letter-r {
-                transform: translate(120px);
+                transform: translate(110px);
             }
             
             .letter-r + .letter-r {
-                transform: translate(170px);
+                transform: translate(160px);
             }
             
             .letter-i {
-                transform: translate(220px, 0);
+                transform: translate(210px, 0);
             }
             
             .letter-n {
-                transform: translate(250px, 0);
+                transform: translate(240px, 0);
             }
             
             .letter-g {
-                transform: translate(310px, 0);
+                transform: translate(300px, 0);
             }
         }
     }
