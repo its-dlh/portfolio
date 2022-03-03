@@ -4,7 +4,7 @@ import { html, css } from "../html-template-tag";
 export const Logo = () => html`
     <!-- I had a version of my logo that I've cobbled together for social media, but
          I figured this would look better if I just typed up an SVG. -->
-    <svg class="dlh-logo" width="150" height="100" viewBox="0 0 150 100" xmlns="http://www.w3.org/2000/svg">
+    <svg class="dlh-logo" viewBox="0 0 150 100" xmlns="http://www.w3.org/2000/svg">
         <!-- d -->
         <polygon
             class="letter letter-d"
@@ -36,6 +36,14 @@ export const style = css`
         
         .letter-h {
             transform: translate(95px, 0);
+        }
+    }
+    
+    @media screen {
+        .dlh-logo {
+            .letter-d:first-child {
+                transform: translate(0, 0);
+            }
         }
     }
 `;
