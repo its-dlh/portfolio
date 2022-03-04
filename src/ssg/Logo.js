@@ -19,9 +19,15 @@ export const Logo = () => html`
             />
             
             <!-- v -->
-            <polygon
+            <!-- <polygon
                 class="letter letter-v"
                 points="0,50 0,90 10,90 10,100 40,100 40,90 50,90 50,50 30,50 30,80 20,80 20,50"
+            /> -->
+            
+            <!-- v -->
+            <polygon
+                class="letter letter-v"
+                points="0,50 0,80 20,100 30,100 50,80 50,50 30,50 30,75 25,80 20,75 20,50"
             />
             
             <!-- i -->
@@ -43,6 +49,8 @@ export const Logo = () => html`
                 class="letter letter-l"
                 points="20,0 20,80 50,80 50,100 0,100 0,0"
             />
+            
+            <rect class="letter dot" x="0" y="80" width="20" height="20"/>
         </g>
         
         <!-- herring group -->
@@ -122,6 +130,11 @@ export const style = css`
         
         .group-l {
             transform: translate(300px, 0);
+            
+            .dot {
+                transform: translate(70px, 0);
+                fill: #000000;
+            }
         }
         
         .group-herring {
