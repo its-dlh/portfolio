@@ -1,7 +1,7 @@
 import { html, css } from "../../html-template-tag";
 
 export const TimelineEntry = props => (...children) => html`
-    <article class="timeline-entry">
+    <article class="timeline-entry ${props.class ?? ''}">
         <header>
             <h3 class="entry-title">
                 ${props.title}
@@ -9,9 +9,11 @@ export const TimelineEntry = props => (...children) => html`
             <h4 class="entry-subtitle">
                 ${props.subtitle}
                 
-                <span class="entry-years">
-                    ${props.start} &ndash; ${props.end ?? 'Present'}
-                </span>
+                ${props.start && html`
+                    <span class="entry-years">
+                        ${props.start} &ndash; ${props.end ?? 'Present'}
+                    </span>
+                `}
             </h4>
         </header>
         
