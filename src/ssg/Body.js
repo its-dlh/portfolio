@@ -1,5 +1,6 @@
 import { css, html } from "../html-template-tag";
 import { Header } from "./Header";
+import { SocialSection } from "./summary/SocialSection";
 import { SummaryContent } from "./summary/SummaryContent";
 import { SummaryList } from "./summary/SummaryList";
 import { SummarySection } from "./summary/SummarySection";
@@ -60,6 +61,8 @@ export const Body = () => html`
                     <p>Marion, IN | 2007-2012</p>
                 `)
             ),
+            
+            SocialSection
         )}
         
         ${TimelineSection(html`
