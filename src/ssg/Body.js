@@ -46,7 +46,7 @@ export const Body = () => html`
             ),
             
             SummaryList({ title: 'Dangerous In...' })(
-                'Python, Perl, Java, C Family, Swift, Go, Rust, Lua, GLSL',
+                'Python, Perl, Java, C Family, Go, Rust, Lua, GLSL',
                 'Svelte, React Native',
                 'Tailwind',
                 'Fastify, Deno, Strapi'
