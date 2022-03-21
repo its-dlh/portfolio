@@ -15,10 +15,10 @@ export const Body = () => html`
         ${SummarySection(
             SummaryContent({ title: 'Summary' })(html`
                 <p class="summary-text">
-                    Versatile full-stack developer with insatiable curiosity looking
-                    to stretch engineering skills to the limit and beyond. Passionate
-                    about front-end reactivity, data flow, and state management, while completely
-                    comfortable diving deep into a backend, even those authored in unfamiliar languages.
+                    Versatile full-stack developer looking
+                    to stretch engineering skills and deepen knowledge. Passionate
+                    about front-end reactivity, data flow, and state management, while also
+                    skilled in backend development and interested in systems programming.
                 </p>
             `),
             // SummaryList({ title: 'Strengths' })(
