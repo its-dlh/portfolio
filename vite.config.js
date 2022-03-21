@@ -4,7 +4,8 @@ import path from 'path';
 
 export default defineConfig({
     build: {
-        polyfillModulePreload: false
+        polyfillModulePreload: false,
+        manifest: true
     },
     resolve: {
         alias: {

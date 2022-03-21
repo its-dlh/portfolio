@@ -15,6 +15,7 @@ export const style = css`
             padding: 1rem;
             flex: 0 0 auto;
             width: 2.5in;
+            position: relative;
             -webkit-print-color-adjust: exact;
             color-adjust: exact;
         }
