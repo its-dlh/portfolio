@@ -7,13 +7,13 @@ export const TimelineEntry = props => (...children) => html`
                 ${props.title}
             </h3>
             <h4 class="entry-subtitle">
-                ${props.subtitle}
-                
                 ${props.start && html`
                     <span class="entry-years">
-                        ${props.start} &ndash; ${props.end ?? 'Present'}
+                        ${props.start} &ndash; ${props.end ?? 'Present'} |
                     </span>
                 `}
+                
+                ${props.subtitle}
             </h4>
         </header>
         
@@ -36,18 +36,9 @@ export const style = css`
         }
         
         .entry-years {
-            display: inline-block;
-            font-size: 0.75em;
-            font-weight: 500;
+            font-size: 1.25em;
+            font-weight: 400;
             font-style: normal;
-            color: #fff;
-            background-color: #777777;
-            padding: 0.25em 0.5em 0.3em;
-            margin-top: -0.25em;
-            margin-left: 0.5em;
-            border-radius: 0.5em;
-            -webkit-print-color-adjust: exact;
-            color-adjust: exact;
         }
         
         p {
