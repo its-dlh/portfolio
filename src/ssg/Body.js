@@ -41,14 +41,13 @@ export const Body = () => html`
                 'Electron, Ionic, Capacitor, Cordova',
                 'React, RxJS',
                 'GraphQL, Apollo',
-                'PostgreSQL, mongoDB',
+                'PostgreSQL, mongoDB, SQL Server',
                 'Google Firebase, Firestore'
             ),
             
             SummaryList({ title: 'Dangerous In...' })(
                 'Python, Perl, Java, C Family, Go, Rust, Lua, GLSL',
-                'Svelte, React Native',
-                'Tailwind',
+                'Svelte, React Native, Tailwind',
                 'Fastify, Deno, Strapi'
             ),
             
