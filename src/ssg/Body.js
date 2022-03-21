@@ -48,18 +48,18 @@ export const Body = () => html`
             SummaryList({ title: 'Dangerous In...' })(
                 'Python, Perl, Java, C Family, Go, Rust, Lua, GLSL',
                 'Svelte, React Native, Tailwind',
-                'Fastify, Deno, Strapi'
+                'Fastify, Deno, Strapi, Docker'
             ),
             
-            SummaryContent({ title: 'Education' })(
-                TimelineEntry({
-                    title: "Indiana Wesleyan University",
-                    subtitle: "B.S. Computer Information Systems",
-                    class: 'education-entry'
-                })(html`
-                    <p>Marion, IN | 2007-2012</p>
-                `)
-            ),
+            // SummaryContent({ title: 'Education' })(
+            //     TimelineEntry({
+            //         title: "Indiana Wesleyan University",
+            //         subtitle: "B.S. Computer Information Systems",
+            //         class: 'education-entry'
+            //     })(html`
+            //         <p>Marion, IN | 2007-2012</p>
+            //     `)
+            // ),
             
             SocialSection
         )}
@@ -69,6 +69,15 @@ export const Body = () => html`
             
             ${FergusonEntry}
             ${ProPrintsEntry}
+            
+            <h2>Education</h2>
+            ${TimelineEntry({
+                title: "Indiana Wesleyan University (Marion, IN)",
+                subtitle: "B.S. Computer Information Systems",
+                start: 2007,
+                end: 2012,
+                // class: 'education-entry'
+            })}
         `)}
     </main>
 `;
