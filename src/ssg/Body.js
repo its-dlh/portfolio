@@ -17,7 +17,7 @@ export const Body = () => html`
                 <p class="summary-text">
                     Versatile full-stack developer looking
                     to stretch engineering skills and deepen knowledge. Passionate
-                    about front-end reactivity, data flow, and state management, while also
+                    about front-end reactivity, state management, and build systems, while also
                     skilled in backend development and interested in systems programming.
                 </p>
             `),
@@ -79,6 +79,13 @@ export const Body = () => html`
                 // class: 'education-entry'
             })}
         `)}
+        
+        <!-- I want to do hard things. I've enjoyed the last several years I've spent pushing Ferguson Advertising forward technologically and mentoring bright young minds, but it's been quite awhile since I've truly felt out of my depth. I think I need to feel out of my depth in order to truly reach my potential, so I'm looking for engineering challenges that are bigger than anything I've done before. I'm looking to be in an environment with people smarter than me, people who will make me feel impostor syndrome.
+
+        I have realized that my path of advancement in a small business is to become a manager, but I have so much more engineering growth left in me. I am hitting a ceiling, not of my own personal limitations, but the constraints of budget, time, and maintainability in a small team. I'm ready to find the job that can help me break through that ceiling and stretch myself to my limits.
+
+        Thank you for your consideration,
+        -DLH -->
     </main>
 `;
 

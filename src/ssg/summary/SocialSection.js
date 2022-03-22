@@ -1,5 +1,6 @@
 import { html, css } from "../../html-template-tag";
 import emailIcon from "@/assets/images/email.svg";
+import gitHubIcon from "@/assets/images/github-icon.svg";
 import twitterIcon from "@/assets/images/twitter-white.svg";
 import linkedInIcon from "@/assets/images/linkedin.svg?url";
 
@@ -7,9 +8,16 @@ export const SocialSection = () => html`
     <section id="social-section">
         <ul>
             <li>
-                <a class="social-link" href="mailto:davidlherring@gmail.com" target="_blank">
+                <a class="social-link" href="mailto:davidlherring@gmail.com">
                     <img class="icon" src="${emailIcon}" alt="Email">
                     davidlherring@gmail.com
+                </a>
+            </li>
+            
+            <li>
+                <a class="social-link" href="https://github.com/its-dlh" target="_blank">
+                    <img class="icon" src="${gitHubIcon}" alt="GitHub">
+                    github.com/its-dlh
                 </a>
             </li>
             
@@ -23,7 +31,7 @@ export const SocialSection = () => html`
             <li>
                 <a class="social-link" href="https://www.linkedin.com/in/davidlherring/" target="_blank">
                     <img class="icon" src="${linkedInIcon}" alt="LinkedIn">
-                    LinkedIn
+                    /in/davidlherring
                 </a>
             </li>
         </ul>
@@ -36,7 +44,7 @@ export const style = css`
         bottom: 0;
         left: 0;
         width: 100%;
-        padding: 1rem;
+        padding: 1.5rem;
         font-size: 1rem;
         background-color: var(--color-grey);
         
