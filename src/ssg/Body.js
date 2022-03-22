@@ -37,7 +37,7 @@ export const Body = () => html`
             ),
             
             SummaryList({ title: 'Experienced In...' })(
-                'Vite, Webpack, Babel, PostCSS',
+                'Vite, esbuild, Webpack, Babel, PostCSS',
                 'Electron, Ionic, Capacitor, Cordova',
                 'React, RxJS',
                 'GraphQL, Apollo',
@@ -82,7 +82,7 @@ export const Body = () => html`
         
         <!-- I want to do hard things. I've enjoyed the last several years I've spent pushing Ferguson Advertising forward technologically and mentoring bright young minds, but it's been quite awhile since I've truly felt out of my depth. I think I need to feel out of my depth in order to truly reach my potential, so I'm looking for engineering challenges that are bigger than anything I've done before. I'm looking to be in an environment with people smarter than me, people who will make me feel impostor syndrome.
 
-        I have realized that my path of advancement in a small business is to become a manager, but I have so much more engineering growth left in me. I am hitting a ceiling, not of my own personal limitations, but the constraints of budget, time, and maintainability in a small team. I'm ready to find the job that can help me break through that ceiling and stretch myself to my limits.
+        I have realized that my path of advancement in a small business is to become a manager, but I know that I have so much more engineering potential in me. I am hitting a ceiling, not of my own personal limitations, but the constraints of budget, time, and maintainability in a small team. I'm ready to find the job where I can really flex my engineering muscles, dive headlong into creative solutions, and collaborate with like-minded individuals.
 
         Thank you for your consideration,
         -DLH -->

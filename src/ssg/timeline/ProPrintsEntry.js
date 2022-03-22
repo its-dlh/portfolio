@@ -7,7 +7,7 @@ export const ProPrintsEntry = () => html`
         title: 'Pro Prints Gear (Marion, IN)',
         subtitle: 'Web Developer',
         start: 2007,
-        end: 2012
+        end: 2013
     })(html`
         ${TimelineEntryList(
             "Honed fundamentals of full-stack LAMP development",
