@@ -93,7 +93,8 @@ export const Body = () => html`
                 title: 'Pro Prints Gear',
                 subtitle: 'Web Developer',
                 start: 2007,
-                end: 2013
+                end: 2013,
+                class: 'second-page-entry'
             })(html`
                 <p>
                     Built a strong foundation in web fundamentals and collaboration skills
@@ -103,8 +104,7 @@ export const Body = () => html`
             ${TimelineEntry({
                 title: 'Freelance/Student Work',
                 start: 2005,
-                end: 2007,
-                class: 'second-page-entry'
+                end: 2007
             })}
 
             <h2>Education</h2>

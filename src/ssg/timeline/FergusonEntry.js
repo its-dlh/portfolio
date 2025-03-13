@@ -11,7 +11,7 @@ export const FergusonEntry = () => html`
     })(html`
         ${TimelineEntryList(
             "Estimated, planned, and architected many of the most demanding web projects and high-revenue contracts received during this time",
-            "Drove the implementation of industry best practices in version control, issue tracking, and code reviews",
+            "Oversaw the formalization of standards for version control, code review, and issue tracking",
             "Provided mentorship and thought leadership, and served as a people leader for four direct reports"
         )}
     `)}
@@ -22,7 +22,8 @@ export const FergusonEntry = () => html`
         end: 2021
     })(html`
         ${TimelineEntryList(
-            "Built a variety of increasingly complex websites, mobile apps, and interactive experiences, including Electron-based software for a trade show kiosk",
+            "Built a variety of increasingly complex websites, mobile apps, and interactive experiences",
+            "Created Electron-based kiosk software to enhance a client's sales presence at trade shows",
             "Took ownership of some messy (but high-revenue) projects, cleaned them up, and delivered successfully"
         )}
     `)}
@@ -34,8 +35,9 @@ export const FergusonEntry = () => html`
     })(html`
         ${TimelineEntryList(
             "Played a prominent role in the team's most technically demanding projects",
-            "Re-created native mobile apps in web technologies with virtually no loss of UI/UX fidelity",
-            "Drove adoption of modern front-end frameworks, build tools, and version control practices"
+            "Re-created native mobile apps using web technologies with virtually no loss of UI/UX fidelity",
+            "Single-handedly pioneered company's usage of git, despite senior staff resistance to version control",
+            "Successfully advocated for adopting modern front-end frameworks, libraries, and build tools"
         )}
     `)}
 `;
