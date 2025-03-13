@@ -9,13 +9,6 @@ export const FergusonEntry = () => html`
         start: 2021,
         end: 2022
     })(html`
-        <p>
-            During my tenure at Ferguson Advertising, I created and maintained a multitude of web/mobile projects for a variety of clients.
-            Over time, as my influence and thought leadership grew, I was given more and more responsibility, and was eventually a people
-            leader with four direct reports.
-        </p>
-        
-        <h5>Highlights</h5>
         ${TimelineEntryList(
             "Estimated, planned, and architected many of the most demanding web projects and high-revenue contracts received during this time",
             "Drove the implementation of industry best practices in version control, issue tracking, and code reviews",

@@ -78,10 +78,12 @@ export const Body = () => html`
                 
                 <h5>Highlights</h5>
                 ${TimelineEntryList(
-                    "Implemented new UI components to support various MuleSoft product launches, including CloudHub 2.0, Usage-Based Pricing, and RPA",
+                    "Implemented the new UI for connecting Salesforce orgs, with the associated API Catalog and Einstein/Agentforce controls",
+                    "Executed our UI commitments to support various MuleSoft product launches, including CloudHub 2.0, Usage-Based Pricing, and RPA",
                     "Remediated a very large list of high-priority accessibility issues and built components to improve future resilience to these issues",
                     "Performed a long overdue migration from a legacy UI to the modern UI, closing functionality gaps, addressing customer feedback, and cautiously planning/executing a months-long rollout process",
-                    "Added new UI constructs for multiple ID provider account linking in both Sign-In and Access Management"
+                    "Engineered the UX for multiple ID provider account linking in both Sign-In and Access Management",
+                    "Improved supportability for the platform by adding new information and controls to the internal Admin UI"
                 )}
             `)}
 
@@ -92,12 +94,17 @@ export const Body = () => html`
                 subtitle: 'Web Developer',
                 start: 2007,
                 end: 2013
-            })}
+            })(html`
+                <p>
+                    Built a strong foundation in web fundamentals and collaboration skills
+                </p>
+            `)}
             
             ${TimelineEntry({
                 title: 'Freelance/Student Work',
                 start: 2005,
-                end: 2007
+                end: 2007,
+                class: 'second-page-entry'
             })}
 
             <h2>Education</h2>
@@ -124,8 +131,9 @@ export const style = css`
         font-family: "Raleway", sans-serif;
     }
 
-    .education-entry p {
-        margin: 0.25em 0;
+    .second-page-entry {
+        break-before: always;
+        padding-top: 0.5in;
     }
 
     @media print {
