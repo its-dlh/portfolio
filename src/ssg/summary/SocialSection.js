@@ -13,21 +13,14 @@ export const SocialSection = () => html`
                     davidlherring@gmail.com
                 </a>
             </li>
-            
+
             <li>
                 <a class="social-link" href="https://github.com/its-dlh" target="_blank">
                     <img class="icon" src="${gitHubIcon}" alt="GitHub">
                     github.com/its-dlh
                 </a>
             </li>
-            
-            <li>
-                <a class="social-link" href="https://twitter.com/DavidLHerring" target="_blank">
-                    <img class="icon" src="${twitterIcon}" alt="Twitter">
-                    @DavidLHerring
-                </a>
-            </li>
-            
+
             <li>
                 <a class="social-link" href="https://www.linkedin.com/in/davidlherring/" target="_blank">
                     <img class="icon" src="${linkedInIcon}" alt="LinkedIn">
@@ -47,7 +40,7 @@ export const style = css`
         padding: 1.5rem;
         font-size: 1rem;
         background-color: var(--color-grey);
-        
+
         .social-link {
             display: block;
             padding: 0.5em 0;
@@ -56,7 +49,7 @@ export const style = css`
             font-weight: 600;
             color: inherit;
         }
-        
+
         .icon {
             width: 1.25em;
             margin-right: 0.25em;
@@ -67,6 +60,6 @@ export const style = css`
     }
 
     @media print {
-        
+
     }
 `;

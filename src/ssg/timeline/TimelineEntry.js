@@ -9,7 +9,8 @@ export const TimelineEntry = props => (...children) => html`
             <h4 class="entry-subtitle">
                 ${props.start && html`
                     <span class="entry-years">
-                        ${props.start} &ndash; ${props.end ?? 'Present'} |
+                        ${props.start} &ndash; ${props.end ?? 'Present'}
+                        ${!!props.subtitle && '|'}
                     </span>
                 `}
                 
@@ -26,6 +27,7 @@ export const style = css`
         .entry-title {
             font-size: 1.25em;
             font-weight: 800;
+            margin-top: 0.75em;
         }
         
         .entry-subtitle {

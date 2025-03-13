@@ -24,7 +24,7 @@ export const style = css`
         }
         
         .summary-inner-content {
-            margin: 0.5em 0 1.5em;
+            margin: 1em 0 2em;
         }
     }
     
