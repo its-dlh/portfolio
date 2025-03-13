@@ -72,8 +72,8 @@ export const Body = () => html`
             })(html`
                 <p>
                     As my team's UX specialist, I maintain the MuleSoft Access Management, Sign-In, and Admin UIs.
-                    Beyond UX engineering, I contribute to the core authentication server for the platform, I support the numerous teams
-                    who depend on our services, and I perform the same regular duties (e.g. on-call, investigations, deployments) expected of any engineer on the team.
+                    Beyond UX engineering, I contribute to the core authentication server for the platform, supporting the numerous teams
+                    who depend on our services and performing the same regular duties (e.g. on-call, investigations, deployments) expected of any engineer on the team.
                 </p>
                 
                 <h5>Highlights</h5>
@@ -93,7 +93,7 @@ export const Body = () => html`
                 start: 2007,
                 end: 2013
             })}
-
+            
             ${TimelineEntry({
                 title: 'Freelance/Student Work',
                 start: 2005,
