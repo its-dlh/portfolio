@@ -88,17 +88,18 @@ export const Body = () => html`
             `)}
 
             ${FergusonEntry}
+            
+            <h2 class="second-page">Timeline (cont'd)</h2>
 
             ${TimelineEntry({
                 title: 'Pro Prints Gear',
                 subtitle: 'Web Developer',
                 start: 2007,
-                end: 2013,
-                class: 'second-page-entry'
+                end: 2013
             })(html`
-                <p>
-                    Built a strong foundation in web fundamentals and collaboration skills
-                </p>
+                ${TimelineEntryList(
+                    "Built a strong foundation in web fundamentals, design implementation, and collaboration skills"
+                )}
             `)}
             
             ${TimelineEntry({
@@ -131,7 +132,7 @@ export const style = css`
         font-family: "Raleway", sans-serif;
     }
 
-    .second-page-entry {
+    .second-page {
         break-before: always;
         padding-top: 0.5in;
     }
@@ -141,7 +142,7 @@ export const style = css`
             display: flex;
             flex-direction: column;
             height: 100vh;
-            padding: 0.25in 0.5in 0.5in;
+            padding: 0.375in 0.5in 0.5in;
         }
 
         main {
