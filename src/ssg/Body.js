@@ -16,9 +16,10 @@ export const Body = () => html`
             SummaryContent({ title: 'Summary' })(html`
                 <p class="summary-text">
                     I am a versatile full-stack engineer eager to tackle high-impact challenges.
-                    My first love is frontend web development, as reflected by my history of building marketing-focused,
-                    design-driven websites, apps, and other interactive experiences. But I enjoy rising to whatever challenges present
-                    themselves, and I am quite comfortable working in backend services, databases, cloud deployments, etc.
+                    My first love is front-end web development, as reflected by my history of building marketing-focused,
+                    design-driven websites, apps, and other interactive experiences. However, I very much enjoy rising to
+                    any challenge that presents itself, and I am quite comfortable working in backend services, databases,
+                    cloud deployments, etc.
                 </p>
             `),
             // SummaryList({ title: 'Strengths' })(
@@ -73,12 +74,12 @@ export const Body = () => html`
                 <p>
                     As my team's UX specialist, I maintain the MuleSoft Access Management, Sign-In, and Admin UIs.
                     Beyond UX engineering, I contribute to the core authentication server for the platform, supporting the numerous teams
-                    who depend on our services and performing the same regular duties (e.g. on-call, investigations, deployments) expected of any engineer on the team.
+                    who depend on our services and performing the same duties (e.g. on-call, investigations, deployments) expected of any engineer on the team.
                 </p>
                 
                 <h5>Highlights</h5>
                 ${TimelineEntryList(
-                    "Implemented the new UI for connecting Salesforce orgs, with the associated API Catalog and Einstein/Agentforce controls",
+                    "Implemented the new UI for connecting Salesforce orgs to Anypoint Platform, with the associated API Catalog and Einstein/Agentforce controls",
                     "Executed our UI commitments to support various MuleSoft product launches, including CloudHub 2.0, Usage-Based Pricing, and RPA",
                     "Remediated a very large list of high-priority accessibility issues and built components to improve future resilience to these issues",
                     "Performed a long overdue migration from a legacy UI to the modern UI, closing functionality gaps, addressing customer feedback, and cautiously planning/executing a months-long rollout process",
