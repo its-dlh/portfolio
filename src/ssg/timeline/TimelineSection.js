@@ -8,6 +8,8 @@ export const TimelineSection = (...children) => html`
 
 export const style = css`
     #timeline-section {
+        margin-bottom: 1.5rem;
+        
         h2 {
             font-size: 1.5em;
             font-weight: 800;
