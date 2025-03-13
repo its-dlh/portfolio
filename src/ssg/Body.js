@@ -83,8 +83,8 @@ export const Body = () => html`
                     "Executed our UI commitments to support various MuleSoft product launches, including CloudHub 2.0, Usage-Based Pricing, and RPA",
                     "Remediated a very large list of high-priority accessibility issues and built components to improve future resilience to these issues",
                     "Performed a long overdue migration from a legacy UI to the modern UI, closing functionality gaps, addressing customer feedback, and cautiously planning/executing a months-long rollout process",
-                    "Engineered the UX for multiple ID provider account linking in both Sign-In and Access Management",
-                    "Improved supportability for the platform by adding new information and controls to the internal Admin UI"
+                    "Improved supportability for the platform by adding new information and controls to the internal Admin UI",
+                    "Migrated UIs away from deprecated internal fork of create-react-app to a more customized, maintainable Webpack configuration"
                 )}
             `)}
 
