@@ -5,8 +5,8 @@ import { SummaryContent } from "./summary/SummaryContent";
 import { SummaryList } from "./summary/SummaryList";
 import { SummarySection } from "./summary/SummarySection";
 import { FergusonEntry } from "./timeline/FergusonEntry";
-import { ProPrintsEntry } from "./timeline/ProPrintsEntry";
 import { TimelineEntry } from "./timeline/TimelineEntry";
+import { TimelineEntryList } from "./timeline/TimelineEntryList";
 import { TimelineSection } from "./timeline/TimelineSection";
 
 export const Body = () => html`
@@ -15,10 +15,10 @@ export const Body = () => html`
         ${SummarySection(
             SummaryContent({ title: 'Summary' })(html`
                 <p class="summary-text">
-                    I am a versatile full-stack engineer especially eager to tackle high-impact UX engineering challenges.
-                    Much of my career was spent building design-driven interactive web experiences, with supporting back-ends
-                    tailored to customers' needs. My tenure at MuleSoft has refined these skills while growing my experience
-                    with cloud deployments, CI/CD pipelines, testing best practices, etc.
+                    I am a versatile full-stack engineer eager to tackle high-impact challenges.
+                    My first love is frontend web development, as reflected by my history of building marketing-focused,
+                    design-driven websites, apps, and other interactive experiences. But I enjoy rising to whatever challenges present
+                    themselves, and I am quite comfortable working in backend services, databases, cloud deployments, etc.
                 </p>
             `),
             // SummaryList({ title: 'Strengths' })(
@@ -64,6 +64,26 @@ export const Body = () => html`
 
         ${TimelineSection(html`
             <h2>Timeline</h2>
+            
+            ${TimelineEntry({
+                title: 'Salesforce',
+                subtitle: 'Lead Engineer, MuleSoft Access Management',
+                start: 2022
+            })(html`
+                <p>
+                    As my team's UX specialist, I maintain the MuleSoft Access Management, Sign-In, and Admin UIs.
+                    Beyond UX engineering, I contribute to the core authentication server for the platform, I support the numerous teams
+                    who depend on our services, and I perform the same regular duties (e.g. on-call, investigations, deployments) expected of any engineer on the team.
+                </p>
+                
+                <h5>Highlights</h5>
+                ${TimelineEntryList(
+                    "Implemented new UI components to support various MuleSoft product launches, including CloudHub 2.0, Usage-Based Pricing, and RPA",
+                    "Remediated a very large list of high-priority accessibility issues and built components to improve future resilience to these issues",
+                    "Performed a long overdue migration from a legacy UI to the modern UI, closing functionality gaps, addressing customer feedback, and cautiously planning/executing a months-long rollout process",
+                    "Added new UI constructs for multiple ID provider account linking in both Sign-In and Access Management"
+                )}
+            `)}
 
             ${FergusonEntry}
 
