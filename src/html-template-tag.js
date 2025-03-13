@@ -19,7 +19,7 @@ export async function html([...strings], ...parts) {
 }
 
 function renderPart(part) {
-    if (part === null || typeof part == 'undefined') {
+    if (part === false || part === null || typeof part == 'undefined') {
         return '';
     }
     

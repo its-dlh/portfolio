@@ -66,7 +66,19 @@ export const Body = () => html`
             <h2>Timeline</h2>
 
             ${FergusonEntry}
-            ${ProPrintsEntry}
+
+            ${TimelineEntry({
+                title: 'Pro Prints Gear',
+                subtitle: 'Web Developer',
+                start: 2007,
+                end: 2013
+            })}
+
+            ${TimelineEntry({
+                title: 'Freelance/Student Work',
+                start: 2005,
+                end: 2007
+            })}
 
             <h2>Education</h2>
             ${TimelineEntry({

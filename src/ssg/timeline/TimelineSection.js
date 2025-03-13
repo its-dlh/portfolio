@@ -15,6 +15,10 @@ export const style = css`
             text-transform: uppercase;
             margin-bottom: 0.5em;
         }
+
+        h2:not(:first-child) {
+            margin-top: 1em;
+        }
     }
     
     @media print {
